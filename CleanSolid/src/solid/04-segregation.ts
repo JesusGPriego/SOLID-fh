@@ -1,7 +1,6 @@
 interface Bird {
   eat(): void;
 }
-
 interface FlyingBird {
   fly(): void;
 }
@@ -18,7 +17,7 @@ class Tucan implements Bird, FlyingBird, RunningBird {
   public run(): void {}
 }
 
-class Humingbird implements Bird, FlyingBird {
+class Hummingbird implements Bird, FlyingBird {
   public fly(): void {}
   public eat(): void {}
 }
